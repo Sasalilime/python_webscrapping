@@ -114,7 +114,8 @@ def clean_postal_code(tag):
 
 def main():
     pages = get_page(count=3)
-    save_page(pages)
+    # save_page(pages)
+    print(pages)
 
     
 if __name__ == '__main__':
